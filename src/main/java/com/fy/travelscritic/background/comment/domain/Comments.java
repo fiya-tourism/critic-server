@@ -19,6 +19,31 @@ public class Comments {
 
     private Integer comTravelsYn;
 
+    @Override
+    public String toString() {
+        return "Comments{" +
+                "comTravelsId=" + comTravelsId +
+                ", userId=" + userId +
+                ", travelsId=" + travelsId +
+                ", comTravelsContent='" + comTravelsContent + '\'' +
+                ", comTravelsRelease=" + comTravelsRelease +
+                ", comTravelsCreate=" + comTravelsCreate +
+                ", comTravelsUpdate=" + comTravelsUpdate +
+                ", comTravelsYn=" + comTravelsYn +
+                ", commentType=" + commentType +
+                '}';
+    }
+
+    private Integer commentType;
+
+    public Integer getCommentType() {
+        return commentType;
+    }
+
+    public void setCommentType(Integer commentType) {
+        this.commentType = commentType;
+    }
+
     public Integer getComTravelsId() {
         return comTravelsId;
     }

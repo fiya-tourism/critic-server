@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fy.travelscritic.background.comment.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.fy.travelscritic.background.comment.domain.User">
+    <id column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_sex" jdbcType="INTEGER" property="userSex" />
+    <result column="user_age" jdbcType="INTEGER" property="userAge" />
+    <result column="user_photo" jdbcType="VARCHAR" property="userPhoto" />
+    <result column="user_phone" jdbcType="VARCHAR" property="userPhone" />
+    <result column="user_identity" jdbcType="VARCHAR" property="userIdentity" />
+    <result column="user_bir" jdbcType="DATE" property="userBir" />
+    <result column="user_dwell" jdbcType="VARCHAR" property="userDwell" />
+    <result column="user_email" jdbcType="VARCHAR" property="userEmail" />
+    <result column="user_signature" jdbcType="VARCHAR" property="userSignature" />
+    <result column="user_collect" jdbcType="INTEGER" property="userCollect" />
+    <result column="user_password" jdbcType="VARCHAR" property="userPassword" />
+    <result column="com_create" jdbcType="DATE" property="comCreate" />
+    <result column="com_update" jdbcType="DATE" property="comUpdate" />
+    <result column="com_yn" jdbcType="INTEGER" property="comYn" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    user_id, user_sex, user_age, user_photo, user_phone, user_identity, user_bir, user_dwell, 
+    user_email, user_signature, user_collect, user_password, com_create, com_update, 
+    com_yn
+  </sql>
+
+  <insert id="insert" parameterType="com.fy.travelscritic.background.comment.domain.User">
+    insert into fy_user (user_id, user_sex, user_age, 
+      user_photo, user_phone, user_identity, 
+      user_bir, user_dwell, user_email, 
+      user_signature, user_collect, user_password, 
+      com_create, com_update, com_yn
+      )
+    values (#{userId,jdbcType=INTEGER}, #{userSex,jdbcType=INTEGER}, #{userAge,jdbcType=INTEGER}, 
+      #{userPhoto,jdbcType=VARCHAR}, #{userPhone,jdbcType=VARCHAR}, #{userIdentity,jdbcType=VARCHAR}, 
+      #{userBir,jdbcType=DATE}, #{userDwell,jdbcType=VARCHAR}, #{userEmail,jdbcType=VARCHAR}, 
+      #{userSignature,jdbcType=VARCHAR}, #{userCollect,jdbcType=INTEGER}, #{userPassword,jdbcType=VARCHAR}, 
+      #{comCreate,jdbcType=DATE}, #{comUpdate,jdbcType=DATE}, #{comYn,jdbcType=INTEGER}
+      )
+  </insert>
+</mapper>

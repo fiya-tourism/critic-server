@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fy.travelscritic.background.comment.mapper.CommentsMapper">
+  <resultMap id="BaseResultMap" type="com.fy.travelscritic.background.comment.domain.Comments">
+    <id column="com_travels_id" jdbcType="INTEGER" property="comTravelsId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="travels_id" jdbcType="INTEGER" property="travelsId" />
+    <result column="com_travels_content" jdbcType="VARCHAR" property="comTravelsContent" />
+    <result column="com_travels_release" jdbcType="DATE" property="comTravelsRelease" />
+    <result column="com_travels_create" jdbcType="TIMESTAMP" property="comTravelsCreate" />
+    <result column="com_travels_update" jdbcType="TIMESTAMP" property="comTravelsUpdate" />
+    <result column="com_travels_yn" jdbcType="INTEGER" property="comTravelsYn" />
+    <result column="comment_type" jdbcType="INTEGER" property="commentType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    com_travels_id, user_id, travels_id, com_travels_content, com_travels_release, com_travels_create, 
+    com_travels_update, com_travels_yn,comment_type
+  </sql>
+  <!--查询旅游景点评价信息-->
+  <select id="upUserById" resultType="com.fy.travelscritic.background.comment.domain.Comments" parameterType="java.lang.Integer">
+    select * from fy_travels_comment
+    where
+      com_travels_yn=0
+      and
+      travels_id =#{travels_id}
+      and
+      comment_type=1
+  </select>
+
+
+  <select id="upUserByLv" resultType="com.fy.travelscritic.background.comment.domain.Comments" parameterType="java.lang.Integer">
+   select * from fy_travels_comment
+    where
+      com_travels_yn=0
+      and
+      user_id =#{userId}
+      and
+      travels_id=#{travelsId}
+      and
+      comment_type=2
+  </select>
+
+
+  <insert id="insert" parameterType="com.fy.travelscritic.background.comment.domain.Comments">
+    insert into fy_travels_comment (com_travels_id, user_id, travels_id, 
+      com_travels_content, com_travels_release, com_travels_create, 
+      com_travels_update, com_travels_yn,comment_type)
+    values (#{comTravelsId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{travelsId,jdbcType=INTEGER}, 
+      #{comTravelsContent,jdbcType=VARCHAR}, #{comTravelsRelease,jdbcType=DATE}, #{comTravelsCreate,jdbcType=TIMESTAMP}, 
+      #{comTravelsUpdate,jdbcType=TIMESTAMP}, #{comTravelsYn,jdbcType=INTEGER}, #{commentType,jdbcType=INTEGER})
+  </insert>
+
+</mapper>
