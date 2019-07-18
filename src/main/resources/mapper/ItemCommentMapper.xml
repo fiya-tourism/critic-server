@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fy.travelscritic.background.comment.mapper.ItemCommentMapper">
+  <resultMap id="BaseResultMap" type="com.fy.travelscritic.background.comment.domain.ItemComment">
+    <id column="com_item_id" jdbcType="INTEGER" property="comItemId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="item_id" jdbcType="INTEGER" property="itemId" />
+    <result column="com_item_content" jdbcType="VARCHAR" property="comItemContent" />
+    <result column="com_item_release" jdbcType="DATE" property="comItemRelease" />
+    <result column="com_item_create" jdbcType="TIMESTAMP" property="comItemCreate" />
+    <result column="com_item_update" jdbcType="TIMESTAMP" property="comItemUpdate" />
+    <result column="com_item_yn" jdbcType="INTEGER" property="comItemYn" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    com_item_id, user_id, item_id, com_item_content, com_item_release, com_item_create, 
+    com_item_update, com_item_yn
+  </sql>
+  <!--查询旅游景点评价信息-->
+  <select id="upItemById" resultType="com.fy.travelscritic.background.comment.domain.ItemComment" parameterType="java.lang.Integer">
+    select * from fy_item_comment
+    where
+      com_item_yn=0
+      and
+      item_id =#{itemId}
+  </select>
+
+
+  <insert id="insert" parameterType="com.fy.travelscritic.background.comment.domain.ItemComment">
+    insert into fy_item_comment (com_item_id, user_id, item_id, 
+      com_item_content, com_item_release, com_item_create, 
+      com_item_update, com_item_yn)
+    values (#{comItemId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{itemId,jdbcType=INTEGER}, 
+      #{comItemContent,jdbcType=VARCHAR}, #{comItemRelease,jdbcType=DATE}, #{comItemCreate,jdbcType=TIMESTAMP}, 
+      #{comItemUpdate,jdbcType=TIMESTAMP}, #{comItemYn,jdbcType=INTEGER})
+  </insert>
+
+  <!--根据yn逻辑删除-->
+  <update id="upItemYn" >
+		update fy_item_comment set com_item_yn = #{comItemYn}, com_item_update= #{comItemUpdate}
+		where com_item_id = #{comItemId}
+	</update>
+</mapper>

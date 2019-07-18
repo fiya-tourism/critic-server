@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fy.travelscritic.background.comment.mapper.SpotsCommentMapper">
+  <resultMap id="BaseResultMap" type="com.fy.travelscritic.background.comment.domain.SpotsComment">
+    <id column="com_spots_id" jdbcType="INTEGER" property="comSpotsId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="spots_id" jdbcType="INTEGER" property="spotsId" />
+    <result column="com_spots_content" jdbcType="VARCHAR" property="comSpotsContent" />
+    <result column="com_spots_release" jdbcType="DATE" property="comSpotsRelease" />
+    <result column="com_spots_create" jdbcType="TIMESTAMP" property="comSpotsCreate" />
+    <result column="com_spots_update" jdbcType="TIMESTAMP" property="comSpotsUpdate" />
+    <result column="com_spots_yn" jdbcType="INTEGER" property="comSpotsYn" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    com_spots_id, user_id, spots_id, com_spots_content, com_spots_release, com_spots_create, 
+    com_spots_update, com_spots_yn
+  </sql>
+  <!--查询旅游景点评价信息-->
+  <select id="upSpotsById" resultType="com.fy.travelscritic.background.comment.domain.SpotsComment" parameterType="java.lang.Integer">
+    select * from fy_spots_comment
+    where
+      spots_id =#{soptsId}
+      and
+      com_spots_yn=0
+  </select>
+
+  <insert id="insert" parameterType="com.fy.travelscritic.background.comment.domain.SpotsComment">
+    insert into fy_spots_comment (com_spots_id, user_id, spots_id, 
+      com_spots_content, com_spots_release, com_spots_create, 
+      com_spots_update, com_spots_yn)
+    values (#{comSpotsId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{spotsId,jdbcType=INTEGER}, 
+      #{comSpotsContent,jdbcType=VARCHAR}, #{comSpotsRelease,jdbcType=DATE}, #{comSpotsCreate,jdbcType=TIMESTAMP}, 
+      #{comSpotsUpdate,jdbcType=TIMESTAMP}, #{comSpotsYn,jdbcType=INTEGER})
+  </insert>
+
+  <!--根据yn逻辑删除-->
+  <update id="upSpotsYn" >
+		update fy_spots_comment set com_spots_yn = #{comSpotsYn}, com_spots_update= #{comSpotsUpdate}
+		where com_spots_id = #{comSpotsId}
+	</update>
+
+</mapper>

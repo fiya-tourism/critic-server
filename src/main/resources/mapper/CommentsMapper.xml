@@ -22,32 +22,27 @@
     where
       com_travels_yn=0
       and
-      travels_id =#{travels_id}
-      and
-      comment_type=1
+      travels_id =#{travelsId}
   </select>
 
 
-  <select id="upUserByLv" resultType="com.fy.travelscritic.background.comment.domain.Comments" parameterType="java.lang.Integer">
-   select * from fy_travels_comment
-    where
-      com_travels_yn=0
-      and
-      user_id =#{userId}
-      and
-      travels_id=#{travelsId}
-      and
-      comment_type=2
-  </select>
 
 
   <insert id="insert" parameterType="com.fy.travelscritic.background.comment.domain.Comments">
     insert into fy_travels_comment (com_travels_id, user_id, travels_id, 
       com_travels_content, com_travels_release, com_travels_create, 
-      com_travels_update, com_travels_yn,comment_type)
+      com_travels_update, com_travels_yn)
     values (#{comTravelsId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{travelsId,jdbcType=INTEGER}, 
       #{comTravelsContent,jdbcType=VARCHAR}, #{comTravelsRelease,jdbcType=DATE}, #{comTravelsCreate,jdbcType=TIMESTAMP}, 
-      #{comTravelsUpdate,jdbcType=TIMESTAMP}, #{comTravelsYn,jdbcType=INTEGER}, #{commentType,jdbcType=INTEGER})
+      #{comTravelsUpdate,jdbcType=TIMESTAMP}, #{comTravelsYn,jdbcType=INTEGER})
   </insert>
+
+
+
+  <!--根据yn逻辑删除-->
+  <update id="upTravelYn" >
+		update fy_travels_comment set com_travels_yn = #{comTravelsYn}, com_travels_update= #{comTravelsUpdate}
+		where com_travels_id = #{comTravelsId}
+	</update>
 
 </mapper>
