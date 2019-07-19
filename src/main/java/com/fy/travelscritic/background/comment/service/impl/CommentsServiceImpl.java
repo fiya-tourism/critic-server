@@ -100,7 +100,21 @@ public class CommentsServiceImpl implements CommentsService {
 
 
 //------------------------------------------------------------------------------------------------------------------
+    @Override
+    public DataGridVo selItemQuery(Page page) {
+        if (page == null){
+            page= new Page();
+        }
+        PageHelper.startPage(page.getPage(),page.getRows());
+        page.setSort(StringUtil.underscoreName(page.getSort()));
+        List<ItemComment> pmList = itemCommentMapper.selItemQuery(page);
+        PageInfo<ItemComment> pageIn = new PageInfo(pmList);
+        return new DataGridVo(pageIn.getTotal(),pageIn.getList());
+    }
+
+
     /**
+     *
      * 根据商品Id查看评价
      * @param itemId
      * @return

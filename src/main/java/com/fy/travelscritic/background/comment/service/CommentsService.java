@@ -18,7 +18,7 @@ public interface CommentsService {
 
 
 
-
+    DataGridVo selItemQuery(Page page);
     List<ItemComment> upItemById(Integer itemId);
     ResultMsg upItemYn(ItemComment itemComment);
     ResultMsg insertItem(ItemComment itemComment);
@@ -27,5 +27,6 @@ public interface CommentsService {
     List<SpotsComment> upSpotsById(Integer spotsId);
     ResultMsg upSpotsYn(SpotsComment spotsComment);
     ResultMsg insertSpots(SpotsComment spotsComment);
+
 
 }

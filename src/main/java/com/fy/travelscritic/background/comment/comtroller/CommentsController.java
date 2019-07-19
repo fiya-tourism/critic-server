@@ -115,7 +115,15 @@ public class CommentsController {
     }
 
 
-//-------------------------------------------------pzx-----------------------------------------------------------------------
+
+    @ApiOperation(value = "查询所有商品接口",nickname = "根据Http接口查询所有接口")
+    @RequestMapping("selItemQuery")
+    @ResponseBody
+    public DataGridVo selItemQuery(Page page){
+        return commentsService.selItemQuery(page);
+    }
+
+    //-------------------------------------------------pzx-----------------------------------------------------------------------
     @RequestMapping("upSpotsYn")
     @ResponseBody
     public ResultMsg upSpotsYn (SpotsComment spotsComment){

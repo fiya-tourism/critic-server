@@ -39,4 +39,14 @@
 		update fy_item_comment set com_item_yn = #{comItemYn}, com_item_update= #{comItemUpdate}
 		where com_item_id = #{comItemId}
 	</update>
+  <select id="selItemQuery" resultType="com.fy.travelscritic.background.comment.domain.ItemComment" parameterType="com.fy.travelscritic.config.Page">
+    select * from fy_item_comment
+    <where>
+      com_item_yn=0
+    </where>
+
+    <if test="sort != null and sort != ''">
+      ORDER BY  ${sort} ${order}
+    </if>
+  </select>
 </mapper>
