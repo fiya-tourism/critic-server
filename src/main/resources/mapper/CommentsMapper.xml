@@ -45,4 +45,16 @@
 		where com_travels_id = #{comTravelsId}
 	</update>
 
+
+  <!--查询用户信息-->
+  <select id="queryTravelList" resultType="com.fy.travelscritic.background.comment.domain.Comments" parameterType="com.fy.travelscritic.config.Page">
+    select * from fy_travels_comment
+    <where>
+      com_travels_yn=0
+    </where>
+
+    <if test="sort != null and sort != ''">
+      ORDER BY  ${sort} ${order}
+    </if>
+  </select>
 </mapper>

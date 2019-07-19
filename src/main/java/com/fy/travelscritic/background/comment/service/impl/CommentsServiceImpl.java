@@ -68,6 +68,18 @@ public class CommentsServiceImpl implements CommentsService {
     }
 
     @Override
+    public DataGridVo selTravelsQuery(Page page) {
+        if (page == null){
+            page= new Page();
+        }
+        PageHelper.startPage(page.getPage(),page.getRows());
+        page.setSort(StringUtil.underscoreName(page.getSort()));
+        List<Comments> pmList = commentsMapper.queryTravelList(page);
+        PageInfo<Comments> pageIn = new PageInfo(pmList);
+        return new DataGridVo(pageIn.getTotal(),pageIn.getList());
+    }
+
+    @Override
     public ResultMsg insertTravels(Comments comments) {
         comments.setComTravelsCreate(new Date());
         comments.setComTravelsYn(0);

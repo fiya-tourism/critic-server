@@ -2,6 +2,7 @@ package com.fy.travelscritic.background.comment.mapper;
 
 
 import com.fy.travelscritic.background.comment.domain.Comments;
+import com.fy.travelscritic.config.Page;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -18,4 +19,6 @@ public interface CommentsMapper {
 
 
     void upTravelYn(@Param("comTravelsUpdate") Date comTravelsUpdate,@Param("comTravelsId") Integer comTravelsId,@Param("comTravelsYn") Integer comTravelsYn);
+
+    List<Comments> queryTravelList(Page page);
 }

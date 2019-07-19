@@ -1,8 +1,9 @@
 package com.fy.travelscritic.background.comment.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Comments {
+public class Comments implements Serializable {
     private Integer comTravelsId;
 
     private Integer userId;

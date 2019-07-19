@@ -13,7 +13,10 @@ import java.util.List;
 public interface CommentsService {
     List<Comments> upUserById(Integer travelsId);
     ResultMsg upTravelYn(Comments comments);
+    DataGridVo selTravelsQuery(Page page);
     ResultMsg insertTravels(Comments comments);
+
+
 
 
     List<ItemComment> upItemById(Integer itemId);
@@ -21,10 +24,8 @@ public interface CommentsService {
     ResultMsg insertItem(ItemComment itemComment);
 
 
-
     List<SpotsComment> upSpotsById(Integer spotsId);
     ResultMsg upSpotsYn(SpotsComment spotsComment);
     ResultMsg insertSpots(SpotsComment spotsComment);
-
 
 }
