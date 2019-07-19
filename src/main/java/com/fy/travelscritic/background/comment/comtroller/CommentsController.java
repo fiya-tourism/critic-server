@@ -116,36 +116,17 @@ public class CommentsController {
 
 
 //-------------------------------------------------pzx-----------------------------------------------------------------------
-    /**
-     * 审核游记评价
-     * @param spotsComment
-     * @return
-     */
     @RequestMapping("upSpotsYn")
-    @ApiOperation(value = "根据Yn审核评价的通过与不通过",nickname = "只需要通过当前旅游的主键即可调用接口")
     @ResponseBody
     public ResultMsg upSpotsYn (SpotsComment spotsComment){
         return commentsService.upSpotsYn(spotsComment);
     }
-
-    /**
-     * 新增旅游评价
-     * @param spotsComment
-     * @return
-     */
-    @ApiOperation(value = "新增旅游评价的接口",nickname = "只需要写出评价语句就可以其他的后台已经处理完成")
     @RequestMapping("insertSpots")
     @ResponseBody
     public ResultMsg insertSpots(SpotsComment spotsComment){
         return commentsService.insertSpots(spotsComment);
     }
-    /**
-     * 根据旅游Id查看评价
-     * @param spotsId
-     * @return
-     */
     @RequestMapping("upSpotsById")
-    @ApiOperation(value = "根据旅游主键查询全部与此主键相关的数据",nickname = "只需要知道旅游主键Id即可使用该接口")
     @ResponseBody
     public List<SpotsComment> upSpotsById(Integer spotsId) {
 
