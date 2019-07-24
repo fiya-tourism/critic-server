@@ -1,36 +1,360 @@
-2019-07-20 01:16:11.166  WARN 24096 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s117ms338µs508ns).
-2019-07-20 08:29:51.416  WARN 24096 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h14m3s887ms541µs723ns).
-2019-07-20 08:32:51.611  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 08:37:51.661  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 08:42:52.737  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 08:47:52.739  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 08:52:52.741  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 08:57:52.742  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:02:52.753  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:07:52.765  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:12:52.767  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:17:52.770  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:22:52.788  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:27:52.790  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:32:52.894  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:37:52.909  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:42:52.910  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:47:52.911  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:52:52.914  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 09:57:52.916  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:02:54.217  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:07:54.218  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:12:54.220  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:17:54.222  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:22:54.232  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:27:54.251  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:32:54.278  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:37:54.380  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:42:54.427  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:47:54.460  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:52:54.754  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 10:57:54.853  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 11:02:54.868  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 11:07:54.910  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 11:12:55.547  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2019-07-20 11:17:55.568  INFO 24096 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:06:02.287  WARN 15788 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h25m30s401ms652µs671ns).
+2019-07-24 07:06:47.868  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:11:47.901  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:16:47.902  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:21:47.930  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:26:47.932  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:31:47.934  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:36:47.935  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:41:47.937  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:46:47.938  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:51:47.939  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 07:56:47.941  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:01:47.943  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:06:47.945  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:11:47.946  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:16:47.948  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:21:47.949  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:26:47.952  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:31:47.953  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:36:47.955  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 08:41:47.956  INFO 15788 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:09:57.818  INFO 1884 --- [main] c.f.t.TravelsCriticServerApplication     : The following profiles are active: dev
+2019-07-24 10:10:04.694  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-24 10:10:04.699  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 10:10:04.743  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-07-24 10:10:04.775  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-24 10:10:04.779  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 10:10:04.829  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-07-24 10:10:04.842  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-24 10:10:04.842  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 10:10:04.877  INFO 1884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-07-24 10:10:06.199  INFO 1884 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=22464c22-5899-35c5-9270-2b18e95a27e7
+2019-07-24 10:10:06.544  INFO 1884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$666445bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 10:10:06.646  INFO 1884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$827e48ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 10:10:07.705  INFO 1884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8848 (http)
+2019-07-24 10:10:07.895  INFO 1884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-24 10:10:07.920  INFO 1884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-24 10:10:08.753  INFO 1884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-24 10:10:08.753  INFO 1884 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10838 ms
+2019-07-24 10:10:15.068  INFO 1884 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-24 10:10:15.140  WARN 1884 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-07-24 10:10:15.141  INFO 1884 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-24 10:10:15.152  WARN 1884 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-07-24 10:10:15.153  INFO 1884 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-24 10:10:15.947  INFO 1884 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 10:10:22.348  INFO 1884 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-24 10:10:22.694  INFO 1884 --- [cluster-ClusterId{value='5d37be0ebe7c90075cf8c12e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:2215}] to localhost:27017
+2019-07-24 10:10:22.788  INFO 1884 --- [cluster-ClusterId{value='5d37be0ebe7c90075cf8c12e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8031520}
+2019-07-24 10:10:25.830  WARN 1884 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-24 10:10:25.961  INFO 1884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-24 10:10:26.659  INFO 1884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-24 10:10:26.804  INFO 1884 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-07-24 10:10:26.841  INFO 1884 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-07-24 10:10:26.841  INFO 1884 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-07-24 10:10:26.844  INFO 1884 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-07-24 10:10:26.845  INFO 1884 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-07-24 10:10:26.846  INFO 1884 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-07-24 10:10:26.846  INFO 1884 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-07-24 10:10:26.846  INFO 1884 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@d0e4972
+2019-07-24 10:10:30.423  INFO 1884 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-07-24 10:10:32.644  INFO 1884 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-07-24 10:10:33.368  INFO 1884 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-07-24 10:10:33.540  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-07-24 10:10:33.750  INFO 1884 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-07-24 10:10:33.750  INFO 1884 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-07-24 10:10:34.162  INFO 1884 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-07-24 10:10:34.172  INFO 1884 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-07-24 10:10:35.564  INFO 1884 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:10:36.254  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-07-24 10:10:36.254  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-07-24 10:10:36.254  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-07-24 10:10:36.255  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-07-24 10:10:36.255  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-07-24 10:10:36.255  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-07-24 10:10:36.255  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-07-24 10:10:37.761  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-07-24 10:10:37.766  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-07-24 10:10:37.770  INFO 1884 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-24 10:10:37.809  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1563934237805 with initial instances count: 0
+2019-07-24 10:10:37.822  INFO 1884 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CRITIC-SERVER with eureka with status UP
+2019-07-24 10:10:37.824  INFO 1884 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1563934237824, current=UP, previous=STARTING]
+2019-07-24 10:10:37.830  INFO 1884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-24 10:10:37.884  INFO 1884 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CRITIC-SERVER/localhost:critic-server:8848: registering service...
+2019-07-24 10:10:38.585  INFO 1884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-24 10:10:38.780  INFO 1884 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-24 10:10:38.935  INFO 1884 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CRITIC-SERVER/localhost:critic-server:8848 - registration status: 204
+2019-07-24 10:10:39.272  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_1
+2019-07-24 10:10:39.284  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_2
+2019-07-24 10:10:39.311  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_3
+2019-07-24 10:10:39.326  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_4
+2019-07-24 10:10:39.336  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_5
+2019-07-24 10:10:39.359  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_6
+2019-07-24 10:10:39.372  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评价语句就可以其他的后台已经处理完成_7
+2019-07-24 10:10:39.622  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_1
+2019-07-24 10:10:39.640  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_2
+2019-07-24 10:10:39.653  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_3
+2019-07-24 10:10:39.663  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_4
+2019-07-24 10:10:39.674  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_5
+2019-07-24 10:10:40.058  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_6
+2019-07-24 10:10:40.066  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要写出评论语句就可以其他的后台已经处理完成_7
+2019-07-24 10:10:40.098  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_1
+2019-07-24 10:10:40.106  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_2
+2019-07-24 10:10:40.115  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_3
+2019-07-24 10:10:40.143  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_4
+2019-07-24 10:10:40.154  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_5
+2019-07-24 10:10:40.178  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_6
+2019-07-24 10:10:40.194  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 根据Http接口查询所有接口_7
+2019-07-24 10:10:40.234  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_1
+2019-07-24 10:10:40.254  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_2
+2019-07-24 10:10:40.267  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_3
+2019-07-24 10:10:40.284  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_4
+2019-07-24 10:10:40.296  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_5
+2019-07-24 10:10:40.308  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_6
+2019-07-24 10:10:40.317  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 查询全部接口供修改使用_7
+2019-07-24 10:10:40.350  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_1
+2019-07-24 10:10:40.362  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_2
+2019-07-24 10:10:40.371  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_3
+2019-07-24 10:10:40.379  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_4
+2019-07-24 10:10:40.390  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_5
+2019-07-24 10:10:40.401  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_6
+2019-07-24 10:10:40.818  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道商品Id即可使用该接口_7
+2019-07-24 10:10:40.839  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_1
+2019-07-24 10:10:40.847  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_2
+2019-07-24 10:10:40.857  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_3
+2019-07-24 10:10:40.867  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_4
+2019-07-24 10:10:40.876  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_5
+2019-07-24 10:10:40.904  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_6
+2019-07-24 10:10:40.921  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前商品的主键即可调用接口_7
+2019-07-24 10:10:41.203  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_1
+2019-07-24 10:10:41.214  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_2
+2019-07-24 10:10:41.230  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_3
+2019-07-24 10:10:41.239  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_4
+2019-07-24 10:10:41.248  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_5
+2019-07-24 10:10:41.259  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_6
+2019-07-24 10:10:41.268  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要通过当前游记的主键即可调用接口_7
+2019-07-24 10:10:41.313  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_1
+2019-07-24 10:10:41.343  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_2
+2019-07-24 10:10:41.356  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_3
+2019-07-24 10:10:41.371  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_4
+2019-07-24 10:10:41.387  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_5
+2019-07-24 10:10:41.395  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_6
+2019-07-24 10:10:41.404  INFO 1884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: 只需要知道游记主键Id即可使用该接口_7
+2019-07-24 10:10:41.450  INFO 1884 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-07-24 10:10:41.451  INFO 1884 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-07-24 10:10:41.547  INFO 1884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8848 (http) with context path ''
+2019-07-24 10:10:41.548  INFO 1884 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8848
+2019-07-24 10:10:41.552  INFO 1884 --- [main] c.f.t.TravelsCriticServerApplication     : Started TravelsCriticServerApplication in 54.592 seconds (JVM running for 64.538)
+2019-07-24 10:11:07.768  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-07-24 10:11:07.769  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-07-24 10:11:07.769  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-07-24 10:11:07.769  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-07-24 10:11:07.769  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-07-24 10:11:07.769  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-07-24 10:11:07.769  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-07-24 10:11:07.909  INFO 1884 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-07-24 10:15:36.261  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:20:36.265  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:25:36.276  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:30:36.279  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:35:36.281  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:40:36.282  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:45:36.284  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:50:36.286  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 10:55:36.288  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:00:36.289  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:05:36.290  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:10:36.293  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:15:36.295  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:20:36.297  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:25:36.299  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:30:36.301  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:35:36.368  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:40:36.525  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:45:36.536  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:50:36.538  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 11:55:36.539  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:00:36.540  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:05:36.541  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:10:36.555  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:15:36.556  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:20:36.558  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:25:36.558  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:30:36.560  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:35:36.562  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:40:36.565  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:45:36.567  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:50:36.569  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 12:55:36.571  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:00:36.573  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:05:36.574  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:10:36.612  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:15:36.617  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:20:36.619  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:25:36.622  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:30:36.624  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:35:36.626  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:40:36.627  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:45:36.629  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:50:36.631  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 13:55:36.633  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:00:36.634  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:05:36.636  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:10:36.637  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:15:36.639  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:20:36.641  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:25:36.644  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:30:36.645  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:35:36.647  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:40:36.693  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:45:36.695  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:50:36.705  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 14:55:36.708  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:00:36.710  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:05:36.712  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:10:36.714  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:15:36.716  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:20:36.718  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:25:36.816  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:30:36.820  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:35:36.824  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:40:36.826  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:45:36.828  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:50:36.897  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 15:55:36.898  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 16:00:36.899  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 16:05:36.946  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 16:10:36.948  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 16:15:36.950  INFO 1884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-07-24 16:16:53.337 ERROR 1884 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:10/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.12.jar:1.9.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[na:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:232) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.11.jar:4.4.11]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 common frames omitted
+
+2019-07-24 16:16:53.586  WARN 1884 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.SocketException: Connection reset
+2019-07-24 16:16:55.717 ERROR 1884 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:10/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.12.jar:1.9.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 28 common frames omitted
+
+2019-07-24 16:16:55.723  WARN 1884 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-07-24 16:16:56.007 ERROR 1884 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CRITIC-SERVER/localhost:critic-server:8848 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) ~[eureka-client-1.9.12.jar:1.9.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.12.jar:1.9.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
